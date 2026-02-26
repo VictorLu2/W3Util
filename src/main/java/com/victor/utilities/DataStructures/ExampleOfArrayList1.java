@@ -1,21 +1,15 @@
 package com.victor.utilities.DataStructures;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
-public class ExampleOfIterators {
+public class ExampleOfArrayList1 {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
-        cars.add("Mazda");
 
-        // Get an iterator for the ArrayList
-        Iterator<String> it = cars.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
-
+        cars.add(0, "Mazda");   // Insert element at the beginning of the list (0)
+        System.out.println(cars);
     }
 }

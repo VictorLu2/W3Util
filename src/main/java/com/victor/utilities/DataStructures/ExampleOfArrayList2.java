@@ -1,9 +1,8 @@
 package com.victor.utilities.DataStructures;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
-public class ExampleOfIterators {
+public class ExampleOfArrayList2 {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
@@ -11,11 +10,8 @@ public class ExampleOfIterators {
         cars.add("Ford");
         cars.add("Mazda");
 
-        // Get an iterator for the ArrayList
-        Iterator<String> it = cars.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
+        for (int i = 0; i < cars.size(); i++) {
+            System.out.println(cars.get(i));
         }
-
     }
 }
