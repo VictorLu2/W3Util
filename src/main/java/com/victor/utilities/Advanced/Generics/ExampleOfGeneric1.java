@@ -9,6 +9,7 @@ public class ExampleOfGeneric1 {
     }
 
     public static void main(String[] args) {
+        // int[] is a reference, but the elements inside are primitive
         // Generics can only accept the reference type: int[] -> Integer[]
         Integer[] myNumbers = {1, 2, 3};
         String[] myString = {"Ben", "Tom", "Victor"};
