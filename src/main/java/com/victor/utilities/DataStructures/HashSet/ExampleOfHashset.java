@@ -8,7 +8,7 @@ public class ExampleOfHashset {
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
-        cars.add("BMW");    //  Duplicate set element
+        cars.add("BMW");    //  Duplicate set element (Ignored)
         cars.add("Mazda");
         System.out.println(cars);
 
