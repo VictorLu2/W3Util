@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.TreeSet;
+package com.victor.utilities.DataStructures.Set.TreeSet;
 
 import java.util.TreeSet;
 

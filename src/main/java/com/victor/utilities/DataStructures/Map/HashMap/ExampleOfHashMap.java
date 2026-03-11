@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.Map;
+package com.victor.utilities.DataStructures.Map.HashMap;
 
 import java.util.HashMap;
 

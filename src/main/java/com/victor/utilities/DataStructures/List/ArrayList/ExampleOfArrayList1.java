@@ -1,17 +1,15 @@
-package com.victor.utilities.DataStructures.ArrayList;
+package com.victor.utilities.DataStructures.List.ArrayList;
 
 import java.util.ArrayList;
 
-public class ExampleOfArrayList2 {
+public class ExampleOfArrayList1 {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
-        cars.add("Mazda");
 
-        for (int i = 0; i < cars.size(); i++) {
-            System.out.println(cars.get(i));
-        }
+        cars.add(0, "Mazda");   // Insert element at the beginning of the list (0)
+        System.out.println(cars);
     }
 }

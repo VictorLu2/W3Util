@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.LinkedList;
+package com.victor.utilities.DataStructures.List.LinkedList;
 
 import java.util.LinkedList;
 

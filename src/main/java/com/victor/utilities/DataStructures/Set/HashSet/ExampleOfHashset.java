@@ -1,18 +1,18 @@
-package com.victor.utilities.DataStructures.LinkedHashSet;
+package com.victor.utilities.DataStructures.Set.HashSet;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
-public class ExampleOfLinkedHashSet {
+public class ExampleOfHashset {
     public static void main(String[] args) {
-        LinkedHashSet<String> cars = new LinkedHashSet<>();
+        HashSet<String> cars = new HashSet<String>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
-        cars.add("BMW");    // Duplicate
+        cars.add("BMW");    //  Duplicate set element (Ignored)
         cars.add("Mazda");
-        System.out.println(cars);   //  remembers the order
+        System.out.println(cars);
 
-//        System.out.println(cars.contains("Mazda"));
+//        System.out.println(cars.contains("Volvo"));   // String is an Object
 
 //        cars.remove("Volvo");
 //        System.out.println(cars);
@@ -22,7 +22,7 @@ public class ExampleOfLinkedHashSet {
 
 //        System.out.println(cars.size());
 
-//        for (String i : cars) {
+//        for (String i : cars){
 //            System.out.println(i);
 //        }
     }

@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.ArrayList;
+package com.victor.utilities.DataStructures.List.ArrayList;
 
 import java.util.ArrayList;
 

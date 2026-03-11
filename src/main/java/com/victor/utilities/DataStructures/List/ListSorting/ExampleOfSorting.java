@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.Sorting;
+package com.victor.utilities.DataStructures.List.ListSorting;
 
 import java.util.ArrayList;
 import java.util.Collections;

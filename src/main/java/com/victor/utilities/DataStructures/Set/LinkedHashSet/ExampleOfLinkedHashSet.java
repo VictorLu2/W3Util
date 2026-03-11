@@ -1,18 +1,18 @@
-package com.victor.utilities.DataStructures.TreeSet;
+package com.victor.utilities.DataStructures.Set.LinkedHashSet;
 
-import java.util.TreeSet;
+import java.util.LinkedHashSet;
 
-public class ExampleOfTreeSet {
+public class ExampleOfLinkedHashSet {
     public static void main(String[] args) {
-        TreeSet<String> cars = new TreeSet<>();
+        LinkedHashSet<String> cars = new LinkedHashSet<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
         cars.add("BMW");    // Duplicate
         cars.add("Mazda");
-        System.out.println(cars);   //  Sorted order
+        System.out.println(cars);   //  remembers the order
 
-//        System.out.println(cars.contains("Volvo"));
+//        System.out.println(cars.contains("Mazda"));
 
 //        cars.remove("Volvo");
 //        System.out.println(cars);

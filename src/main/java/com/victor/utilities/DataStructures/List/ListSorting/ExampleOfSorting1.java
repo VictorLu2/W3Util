@@ -1,9 +1,9 @@
-package com.victor.utilities.DataStructures.Sorting;
+package com.victor.utilities.DataStructures.List.ListSorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ExampleOfSorting3 {
+public class ExampleOfSorting1 {
     public static void main(String[] args){
         ArrayList<Integer> myNumbers = new ArrayList<Integer>();
         myNumbers.add(33);
@@ -13,8 +13,8 @@ public class ExampleOfSorting3 {
         myNumbers.add(8);
         myNumbers.add(12);
 
-        Collections.sort(myNumbers,Collections.reverseOrder());
-        for (int i : myNumbers){
+        Collections.sort(myNumbers);
+        for (int i: myNumbers){
             System.out.println(i);
         }
     }

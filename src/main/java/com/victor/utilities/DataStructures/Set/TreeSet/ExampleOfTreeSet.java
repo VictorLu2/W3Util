@@ -1,18 +1,18 @@
-package com.victor.utilities.DataStructures.HashSet;
+package com.victor.utilities.DataStructures.Set.TreeSet;
 
-import java.util.HashSet;
+import java.util.TreeSet;
 
-public class ExampleOfHashset {
+public class ExampleOfTreeSet {
     public static void main(String[] args) {
-        HashSet<String> cars = new HashSet<String>();
+        TreeSet<String> cars = new TreeSet<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
-        cars.add("BMW");    //  Duplicate set element (Ignored)
+        cars.add("BMW");    // Duplicate
         cars.add("Mazda");
-        System.out.println(cars);
+        System.out.println(cars);   //  Sorted order
 
-//        System.out.println(cars.contains("Volvo"));   // String is an Object
+//        System.out.println(cars.contains("Volvo"));
 
 //        cars.remove("Volvo");
 //        System.out.println(cars);
@@ -22,7 +22,7 @@ public class ExampleOfHashset {
 
 //        System.out.println(cars.size());
 
-//        for (String i : cars){
+//        for (String i : cars) {
 //            System.out.println(i);
 //        }
     }

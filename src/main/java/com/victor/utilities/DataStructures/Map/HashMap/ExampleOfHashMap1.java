@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.Map;
+package com.victor.utilities.DataStructures.Map.HashMap;
 
 import java.util.HashMap;
 
@@ -27,8 +27,12 @@ public class ExampleOfHashMap1 {
 //            System.out.println(i);
 //        }
 
-//        for (String i: capitalCities.values()){
+//        for (String i : capitalCities.values()){
 //        System.out.println(i);
+//        }
+
+//        for (String i : capitalCities.keySet()) {
+//            System.out.println("Key: " + i + " Value: " + capitalCities.get(i));
 //        }
     }
 }

@@ -1,8 +1,8 @@
-package com.victor.utilities.DataStructures.ArrayList;
+package com.victor.utilities.DataStructures.List.ArrayList;
 
 import java.util.ArrayList;
 
-public class ExampleOfArrayList3 {
+public class ExampleOfArrayList2 {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
@@ -10,8 +10,8 @@ public class ExampleOfArrayList3 {
         cars.add("Ford");
         cars.add("Mazda");
 
-        for (String i : cars) {
-            System.out.println(i);
+        for (int i = 0; i < cars.size(); i++) {
+            System.out.println(cars.get(i));
         }
     }
 }

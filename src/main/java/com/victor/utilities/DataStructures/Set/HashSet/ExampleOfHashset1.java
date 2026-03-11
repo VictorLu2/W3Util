@@ -1,4 +1,4 @@
-package com.victor.utilities.DataStructures.HashSet;
+package com.victor.utilities.DataStructures.Set.HashSet;
 
 import java.util.HashSet;
 
