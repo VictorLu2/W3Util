@@ -1,9 +1,9 @@
-package com.victor.utilities.DataStructures;
+package com.victor.utilities.DataStructures.Iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ExampleOfIterators {
+public class ExampleOfIterator {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
