@@ -1,7 +1,6 @@
 package com.victor.utilities.Advanced.Lambda;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ExampleOfLambda {
     public static void main(String[] args) {
@@ -22,6 +21,7 @@ public class ExampleOfLambda {
         Lambda condition:
             Target type must be a Functional Interface (interface with exactly one abstract method).
             Lambda cannot target a normal class.
+        @FunctionalInterface
         public interface Consumer<T> {
             void accept(T t);
         }
@@ -44,9 +44,7 @@ public class ExampleOfLambda {
         } ;
 
         Lambda:
-        Consumer<Integer> c = (Integer n) -> {
-            System.out.println(n);
-        };
+        Consumer<Integer> c = (Integer n) -> { System.out.println(n); };
 
         simplify:
         Consumer<Integer> c = n -> System.out.println(n);
