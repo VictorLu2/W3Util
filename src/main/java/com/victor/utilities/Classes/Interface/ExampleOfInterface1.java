@@ -1,28 +1,30 @@
 package com.victor.utilities.Classes.Interface;
 
-interface FirstInterface {
-    public void myMethod();   //  interface method
+// Interface
+interface Animal1 {
+    // Methods in the interface will automatically be public
+    public void animalsound();
+    public void sleep();
 }
 
-interface SecondInterface {
-    public void myOtherMethod();    // Interface method
-}
-
-//  To implement multiple interfaces, separate them with a comma
-class DemoClass implements FirstInterface, SecondInterface {
-    public void myMethod() {
-        System.out.println("Some text...");
+//  Pig1 "implements" the Animal interface
+class Pig1 implements Animal1 {
+    // The body of animalsound() is provided here
+    @Override
+    public void animalsound() {
+        System.out.println("The pig says: wee wee");
     }
 
-    public void myOtherMethod() {
-        System.out.println("Some other text");
+    //  The body of sleep() is provided here
+    public void sleep() {
+        System.out.println("Zzz");
     }
 }
 
-class Main2 {
+class Main1 {
     public static void main(String[] args) {
-        DemoClass myObj = new DemoClass();
-        myObj.myMethod();
-        myObj.myOtherMethod();
+        Pig1 myPig = new Pig1();    // Create a Pig1 object
+        myPig.animalsound();
+        myPig.sleep();
     }
 }
