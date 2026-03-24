@@ -9,7 +9,7 @@ interface Animal {
 /*
 Syntactic sugar(Conceptual model)
 
-public abstract class MyInterface {
+public abstract class Animal {
     public static final int x = 10;
 
     public abstract void run();
