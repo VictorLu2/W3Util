@@ -19,3 +19,28 @@ public class ExampleOfAnonymous {
     }
 }
 
+/* Syntactic sugar
+public class ExampleOfAnonymous {
+
+    public static void main(String[] args) {
+
+        // conceptual local class
+        final class AnonymousClass extends Animal {
+
+            AnonymousClass() {
+                super();
+            }
+
+            @Override
+            void makeSound() {
+                System.out.println("Woof woof");
+            }
+        }
+
+        Animal myAnimal = new AnonymousClass();
+
+        myAnimal.makeSound();
+    }
+}
+ */
+

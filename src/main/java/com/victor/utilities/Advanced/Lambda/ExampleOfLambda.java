@@ -43,10 +43,16 @@ public class ExampleOfLambda {
             }
         } ;
 
-        Lambda:
+        Lambda (full form):
         Consumer<Integer> c = (Integer n) -> { System.out.println(n); };
 
-        simplify:
+        Simplify (omit parameter type - type inference):
+        Consumer<Integer> c = (n) -> { System.out.println(n); };
+
+        Simplify (omit braces for single statement):
+        Consumer<Integer> c = (n) -> System.out.println(n);
+
+        Simplify (omit parentheses for single parameter):
         Consumer<Integer> c = n -> System.out.println(n);
 
         simplify:
